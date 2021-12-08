@@ -1,6 +1,6 @@
 ## Radicale kunstspeeltuin
 
-Beroepsopdracht van <a href="https://www.linkedin.com/in/jamie-vos-0a0b4a18a/">Jamie</a> (SD), Joost, Tessa en Finn (RV) en Simon en Disa (MV).
+Beroepsopdracht van <a href="https://www.linkedin.com/in/jamie-vos-0a0b4a18a/">Jamie</a> (SD), <a href="#">Joost</a>, <a href="#">Tessa</a> en <a href="#">Finn</a> (RV) en <a href="#">Simon</a> en <a href="#">Disa</a> (MV).
 
 -----------------------------------------------------------------
 
