@@ -1,6 +1,6 @@
 ## Radicale kunstspeeltuin
 
-Beroepsopdracht van <a href="https://www.linkedin.com/in/jamie-vos-0a0b4a18a/">Jamie</a> (SD), <a href="#">Joost</a>, <a href="#">Tessa</a> en <a href="https://www.linkedin.com/in/finnvansluis/?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADJNCqYBh1FKVtlLMVtKiCFEKqumi2HlFPg">Finn</a> (RV) en <a href="https://www.linkedin.com/in/simon-van-trirum-552a281a8/?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADCP0w4BBIwQoFFH52GWnzbigp_s4bk5viY">Simon</a> en <a href="https://www.linkedin.com/in/disa-wilms-9236a81a3/?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAC-fXSsBt2efB5z0Sy0XWiczBvYfpJgBJ8s">Disa</a> (MV).
+Beroepsopdracht van <a href="https://www.linkedin.com/in/jamie-vos-0a0b4a18a/">Jamie</a> (SD), <a href="#">Joost</a>, <a href="#">Tessa,</a> <a href="https://www.linkedin.com/in/finnvansluis/?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADJNCqYBh1FKVtlLMVtKiCFEKqumi2HlFPg">Finn</a>(RV), en <a href="https://www.linkedin.com/in/simon-van-trirum-552a281a8/?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADCP0w4BBIwQoFFH52GWnzbigp_s4bk5viY">Simon</a> en <a href="https://www.linkedin.com/in/disa-wilms-9236a81a3/?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAC-fXSsBt2efB5z0Sy0XWiczBvYfpJgBJ8s">Disa</a> (MV).
 
 -----------------------------------------------------------------
 
@@ -16,3 +16,16 @@ Ontwikkel met een multidisciplinair team (studenten van RV, MV, SD) een concept 
 <li><a href="https://github.com/JamieVos991/F2M6-Radicale-Kusntspeeltuin">GitHub</a></li>
 
 <li><a href="#">Logboek</a></li>
+
+<li><a href="#">Bron</a></li>
+
+<li><a href="#">Test plan</a></li>
+
+<li><a href="#">Packet list</a></li>
+
+<li><a href="#">Presentatie</a></li>
+
+
+
+
+
