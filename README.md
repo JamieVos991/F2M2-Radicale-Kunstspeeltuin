@@ -1,7 +1,8 @@
 ## Radicale kunstspeeltuin
 
 <h3>Team<h3>
-RV: 
+
+RV: <br>
 <a href="https://www.linkedin.com/in/finnvansluis/?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADJNCqYBh1FKVtlLMVtKiCFEKqumi2HlFPg">Finn</a><br>
 <a href="#">Joost</a><br>
 <a href="#">Tessa</a><br>
@@ -10,6 +11,7 @@ MV:<br>
  <a href="https://www.linkedin.com/in/disa-wilms-9236a81a3/?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAC-fXSsBt2efB5z0Sy0XWiczBvYfpJgBJ8s">Disa</a><br>
 SD:<br>
 <a href="https://www.linkedin.com/in/jamie-vos-0a0b4a18a/">Jamie</a><br>
+
 -----------------------------------------------------------------
 
 <h3>Opdracht:</h3>
