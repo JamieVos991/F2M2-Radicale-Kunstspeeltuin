@@ -25,6 +25,7 @@ html {
     padding: 500px;
     border: solid 3px black;
     box-shadow: black 10px 10px;
+    border-radius: 20px;
 }
 
 nav {
