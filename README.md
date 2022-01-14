@@ -6,10 +6,10 @@ RV: <br>
 <li><a href="https://www.linkedin.com/in/finnvansluis/?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADJNCqYBh1FKVtlLMVtKiCFEKqumi2HlFPg">Finn</a><br></li>
 <li><a href="#">Joost</a><br></li>
 <li><a href="#">Tessa</a><br></li><br>
-MV:<br>
+MV:<br><br>
 <li><a href="https://www.linkedin.com/insimon-van-trirum-552a281a8miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADCP0w4BBIwQoFFH52GWnzbigp_s4bk5viY">Simon</a><br></li>
 <li><a href="https://www.linkedin.com/in/disa-wilms-9236a81a3/?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAC-fXSsBt2efB5z0Sy0XWiczBvYfpJgBJ8s">Disa</a><br></li><br>
-SD:<br>
+SD:<br><br>
 <li><a href="https://www.linkedin.com/in/jamie-vos-0a0b4a18a/">Jamie</a><br></li>
 
 -----------------------------------------------------------------
