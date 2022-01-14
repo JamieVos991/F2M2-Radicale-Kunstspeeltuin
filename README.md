@@ -1,7 +1,15 @@
 ## Radicale kunstspeeltuin
 
-Beroepsopdracht van <a href="https://www.linkedin.com/in/jamie-vos-0a0b4a18a/">Jamie</a> (SD), <a href="#">Joost</a>, <a href="#">Tessa</a>, <a href="https://www.linkedin.com/in/finnvansluis/?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADJNCqYBh1FKVtlLMVtKiCFEKqumi2HlFPg">Finn</a> (RV), <a href="https://www.linkedin.com/in/simon-van-trirum-552a281a8/?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADCP0w4BBIwQoFFH52GWnzbigp_s4bk5viY">Simon</a> en <a href="https://www.linkedin.com/in/disa-wilms-9236a81a3/?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAC-fXSsBt2efB5z0Sy0XWiczBvYfpJgBJ8s">Disa</a> (MV).
-
+<h4>Team<h4>: 
+RV: 
+<a href="https://www.linkedin.com/in/finnvansluis/?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADJNCqYBh1FKVtlLMVtKiCFEKqumi2HlFPg">Finn</a>
+<a href="#">Joost</a>
+<a href="#">Tessa</a> 
+MV:
+<a href="https://www.linkedin.com/insimon-van-trirum-552a281a8miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADCP0w4BBIwQoFFH52GWnzbigp_s4bk5viY">Simon</a>
+ <a href="https://www.linkedin.com/in/disa-wilms-9236a81a3/?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAC-fXSsBt2efB5z0Sy0XWiczBvYfpJgBJ8s">Disa</a>
+SD:
+<a href="https://www.linkedin.com/in/jamie-vos-0a0b4a18a/">Jamie</a>
 -----------------------------------------------------------------
 
 <h3>Opdracht:</h3>
