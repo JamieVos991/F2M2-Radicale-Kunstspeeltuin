@@ -1,6 +1,6 @@
 ## Radicale kunstspeeltuin
 
-<h3>Team<h3>
+<h3>Team</h3>
 
 RV: <br>
 <li><a href="https://www.linkedin.com/in/finnvansluis/?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADJNCqYBh1FKVtlLMVtKiCFEKqumi2HlFPg">Finn</a><br></li>
