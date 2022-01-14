@@ -20,7 +20,7 @@ nav {
     left: 0;
     right: 0;
     z-index: 99;
-    background-color: blue;
+    background-color: wheat;
     padding: 16px 32px;
     border-bottom: 3px solid red;
 }
@@ -69,9 +69,40 @@ h1 {
 }
 
 .hamburger.is-active span:nth-child(1) {
-    transform
+    transform: translate(0px, -2px) rotate(45deg);
+}
+
+.hamburger.is-active span:nth-child(2) {
+    opacity: 0;
+    transform: translateX(15px);
+}
+
+.hamburger.is-active span:nth-child(3) {
+    transform: translate(-3px, 3px) rotate(-45deg);
+}
+
+.hamburger.is-active:hover span {
+    background-color: hotpink;
 }
 
 .menu {
     display: none;
+    flex: 1 1 0%;
+    justify-content: flex-end;
+    margin: 0 -16px;
+}
+
+.menu a {
+    color: white;
+    margin: 0 16px;
+}
+
+@media (min-width: 768px) {
+    .hamburger {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+    }
 }
