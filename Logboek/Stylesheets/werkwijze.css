@@ -27,10 +27,6 @@ html {
     box-shadow: black 10px 10px;
 }
 
-.middle .logboek-1 {
-    display: flex;
-} 
-
 nav {
     position: fixed;
     top: 0;
@@ -47,6 +43,21 @@ h1 {
     font-weight: 600;
     letter-spacing: 2px;
     text-transform: uppercase;
+}
+
+.menu a {
+    color: white;
+    margin: 0 16px;
+    font-weight: 300;
+    text-decoration: none;
+    transition: 0.4s;
+    padding: 8px 16px;
+    border-radius: 99px;
+    font-size: 16px;
+}
+
+.menu a:hover {
+    color: grey;
 }
 
 #stars {
