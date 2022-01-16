@@ -79,9 +79,8 @@ header {
 	height: 500px;
 	position: fixed;
 	top: 100px;
-	background-image: url(../techniek-nul-en-een-bit-behang-2048x1152_49.jpg);
-	-webkit-background-size: cover;
-	background-size: cover;
+	background-image: url(../tech-4909951_960_720.jpg);
+    background-repeat: ;
 	background-position: center center;
 }
 

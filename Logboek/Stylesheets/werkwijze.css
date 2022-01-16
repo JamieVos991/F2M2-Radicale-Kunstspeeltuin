@@ -81,8 +81,6 @@ header {
 	position: fixed;
 	top: 100px;
 	background-image: url(../the-mandalorian-5k-1920x1080_477555-mm-90.jpg);
-	-webkit-background-size: cover;
-	background-size: cover;
 	background-position: center center;
 }
 
