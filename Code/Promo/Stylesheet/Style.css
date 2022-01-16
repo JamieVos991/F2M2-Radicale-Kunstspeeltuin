@@ -1,3 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background: wheat;
+    background: white;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: wheat;
+    padding: 25px;
+}
+
+nav a {
+    color: black;
+    padding-left: 20px;
+}
+
+.TTS {
+    background-color: wheat;
+    padding-bottom: 600px;
+}
+
+.HWH {
+    background-color: blue;
+    padding-bottom: 600px;
+}
+
+.HWDA {
+    background-color: violet;
+    padding-bottom: 600px;
+}
+
+.OT {
+    background-color: orange;
+    padding-bottom: 600px;
+}
+
+.Footer {
+    background-color: red;
+    padding-bottom: 600px;
 }

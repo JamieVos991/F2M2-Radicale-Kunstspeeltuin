@@ -18,15 +18,6 @@ html {
     justify-content: space-between;
 }
 
-.middle {
-    background: white;
-    /* background-color: rgba(202, 202, 202); */
-    margin: 200px 200px;
-    padding: 500px;
-    border: solid 3px black;
-    box-shadow: black 10px 10px;
-}
-
 nav {
     position: fixed;
     top: 0;
