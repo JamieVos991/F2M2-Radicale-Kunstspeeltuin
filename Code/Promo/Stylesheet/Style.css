@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+    width: 100%;
+}
+
 body {
     background: white;
 }
@@ -12,35 +17,59 @@ nav {
     display: flex;
     justify-content: center;
     background-color: wheat;
-    padding: 25px;
+    padding: 30px;
+    position: sticky;
+    top: 0;
 }
 
 nav a {
     color: black;
     padding-left: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
 }
 
-.TTS {
-    background-color: wheat;
-    padding-bottom: 600px;
-}
-
-.HWH {
-    background-color: blue;
-    padding-bottom: 600px;
-}
-
-.HWDA {
-    background-color: violet;
-    padding-bottom: 600px;
-}
-
-.OT {
+#TTS {
     background-color: orange;
-    padding-bottom: 600px;
+    padding: 435px;
 }
 
-.Footer {
-    background-color: red;
-    padding-bottom: 600px;
+h2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: -300px;
 }
+
+#HWH {
+    background-color: blue;
+    padding: 475px;
+}
+
+#HWDA {
+    background-color: violet;
+    padding: 475px;
+}
+
+#OT {
+    background-color: #fff;
+    background-image: radial-gradient(circle, #e53935 20%, transparent 10%), radial-gradient(circle, #e53935 20%, transparent 10%);
+    background-size: 200px 200px;
+    background-position: 0 0, 100px 100px;
+    padding: 475px;
+}
+
+#Footer {
+    background-color: red;
+    padding: 420px;
+}
+
+.FD {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    background-color: darkgray;
+}
+
