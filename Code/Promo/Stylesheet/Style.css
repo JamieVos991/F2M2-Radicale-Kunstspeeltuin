@@ -14,6 +14,12 @@ body {
     background: white;
 }
 
+.NAV {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 nav {
     display: flex;
     justify-content: center;
@@ -40,10 +46,10 @@ h2 {
     color: blue;
     display: flex;
     justify-content: center;
-    font-size: 55px;
-    margin-top: -400px;
+    font-size: 40px;
     font-weight: 900;
     text-align: center;
+    margin-top: -400px;
 }
 
 .text {
@@ -75,7 +81,7 @@ h2 {
 
 #Footer {
     background-color: red;
-    padding: 420px;
+    padding: 309px;
 }
 
 .FD {
