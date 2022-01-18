@@ -24,32 +24,41 @@ nav {
     display: flex;
     justify-content: center;
     background-color: white;
-    padding: 30px;
+    padding: 55px;
     position: sticky;
     top: 0;
+    z-index: 9;
 }
 
 nav a {
     color: black;
-    padding-left: 20px;
+    padding-left: 35px;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 18px;
     font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
 }
 
 #TTS {
     background-color: white;
-    padding: 500px;
+    padding: 521px;
 }
 
 h2 {
-    color: blue;
+    color: #212121;
     display: flex;
     justify-content: center;
-    font-size: 40px;
-    font-weight: 900;
+    font-size: 50px;
+    font-weight: bolder;
     text-align: center;
-    margin-top: -400px;
+    margin-top: -360px;
+}
+
+.phone {
+    height: 900px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: -300px;
 }
 
 .text {
@@ -57,18 +66,18 @@ h2 {
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-top: 30px;
-    font-size: 13px;
+    margin-top: 20px;
+    font-size: 19px;
 }
 
 #HWH {
     background-color: blue;
-    padding: 500px;
+    padding: 521px;
 }
 
 #HWDA {
     background-color: violet;
-    padding: 475px;
+    padding: 521px;
 }
 
 #OT {
@@ -76,12 +85,12 @@ h2 {
     background-image: radial-gradient(circle, #e53935 20%, transparent 10%), radial-gradient(circle, #e53935 20%, transparent 10%);
     background-size: 200px 200px;
     background-position: 0 0, 100px 100px;
-    padding: 475px;
+    padding: 521px;
 }
 
 #Footer {
     background-color: red;
-    padding: 309px;
+    padding: 521px;
 }
 
 .FD {
