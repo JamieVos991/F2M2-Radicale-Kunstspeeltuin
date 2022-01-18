@@ -42,11 +42,9 @@ nav a {
 #TTS {
     background-color: white;
     padding: 521px;
+    max-width: 100%;
 }
 
-.logo{
-
-}
 
 h2 {
     color: #212121;
