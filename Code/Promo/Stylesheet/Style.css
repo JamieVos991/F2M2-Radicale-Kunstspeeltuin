@@ -94,8 +94,31 @@ h2 {
 }
 
 #HWH {
-    background-color: blue;
+    background-color: white;
     padding: 521px;
+}
+
+.circle-1, .circle-2, .circle-3 {
+    background: white;
+    border: 3px solid #212121;
+    height: 175px;
+    width: 175px;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
+.mini-circle-1, .mini-circle-2, .mini-circle-3 {
+    background: #212121;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    margin-top: -20px;
+    margin-left: -20px;
+    color: white;
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
 }
 
 #HWDA {
