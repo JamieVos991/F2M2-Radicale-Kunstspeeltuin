@@ -127,8 +127,13 @@ h2 {
     padding: 521px;
 }
 
+.img-container {
+    top: 50%;
+}
+
 .phone2 {
-    margin-left: -250px;
+ display: flex;
+ margin-left: -225px;
 }
 
 #OT {
