@@ -1,11 +1,21 @@
 
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: poppins;
+  box-sizing: border-box;
+}
+
 body {
     background: white;
     font-family: sans-serif;
-    background: #89BEFA;
   }
 
-  .Knop {
+  a {
+    text-decoration: none;
+  }
+
+  /* .Knop {
     display: flex;
     justify-content: center;
     box-shadow: 4px 4px 4px grey;
@@ -26,16 +36,125 @@ body {
     left: 0;
     border-top-right-radius: 50px;
     border-top-left-radius: 50px;
-  
+  } */
+
+#Informatie {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.Informatie-Heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Informatie-Heading span {
+  color: #f33c3c;
+}
+
+.Informatie-Heading h3 {
+  font-size: 2.4rem;
+  color: #2b2b2b;
+  font-weight: 600;
+}
+
+.Informatie-Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+  flex-wrap: wrap;
+}
+
+.Informatie-Box {
+  width: 350px;
+  background-color: #ffffff;
+  border: 1px solid #ececec;
+  margin: 20px;
+}
+
+.Informatie-Img {
+  width: 100%;
+  height: auto;
+}
+
+.Informatie-Img Img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.Informatie-Text {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Informatie-Text span {
+  color: #f33c3c;
+  font-size: 0.9rem;
+}
+
+.Informatie-Text .Informatie-Title {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #272727;
+}
+
+.Informatie-Text .Informatie-Title:hover {
+  color: #f33c3c;
+  transition: all ease 0.3s;
+}
+
+.Informatie-Text p {
+  color: #9b9b9b;
+  font-size: 0.9rem;
+  display: -webkit-box;
+  margin: 20px 0px;
+}
+
+.Informatie-Text a {
+  color: #0f0f0f;
+}
+
+.Informatie-Text a:hover {
+  color: #f33c3c;
+  transition: all ease 0.3s;
+}
+
+@Media(max-width:1250px) {
+  .Informatie-Box {
+    width: 300px;
+  }
+}
+
+@media(max-width:1100px) {
+  .Informatie-Box {
+    width: 70%;
+  }
+}
+
+@media(max-width:550px) {
+  .Informatie-Box {
+    margin: 20px 10px;
+    width: 100%;
   }
 
-  section {
-    width: 80%;
-    margin: 80px auto;
+  #Informatie {
+    padding: 20px;
   }
+}
 
-  .title {
-    text-align: center;
-    font-size: 4vmin;
-    color: rgba(73, 73, 126);
+@media(max-width:322) {
+  .Informatie-Title {
+    font-size: 16px;
   }
+  }
+}
