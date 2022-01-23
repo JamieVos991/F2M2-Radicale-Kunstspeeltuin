@@ -2,9 +2,10 @@
 body {
     background: white;
     font-family: sans-serif;
+    background: #89BEFA;
   }
 
-  .lower-knop {
+  .Knop {
     display: flex;
     justify-content: center;
     box-shadow: 4px 4px 4px grey;
@@ -17,7 +18,7 @@ body {
     align-items: center;
   }
   
-  .lower {
+  .Lower {
     position: absolute;
     bottom: 0px;
     height: 130px;
@@ -26,4 +27,15 @@ body {
     border-top-right-radius: 50px;
     border-top-left-radius: 50px;
   
+  }
+
+  section {
+    width: 80%;
+    margin: 80px auto;
+  }
+
+  .title {
+    text-align: center;
+    font-size: 4vmin;
+    color: rgba(73, 73, 126);
   }
