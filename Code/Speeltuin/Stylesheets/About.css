@@ -7,7 +7,7 @@
 }
 
 body {
-    background: white;
+    background: #89BEFA;  
     font-family: sans-serif;
   }
 
@@ -75,7 +75,6 @@ body {
 .Informatie-Box {
   width: 350px;
   background-color: #ffffff;
-  border: 1px solid #ececec;
   margin: 20px;
 }
 
