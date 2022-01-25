@@ -2,30 +2,40 @@
 * {
   margin: 0px;
   padding: 0px;
-  font-family: poppins;
+  font-family: 'Poppins', sans-serif;
   box-sizing: border-box;
 }
 
 body {
     background: #89BEFA;  
-    font-family: sans-serif;
   }
 
   a {
     text-decoration: none;
   }
 
+  .nav {
+    border-bottom-left-radius: 90%;
+    margin-left: 320px;
+    position: sticky;
+    justify-content: right;
+    position: absolute;
+    background: orchid;
+    width: 100px;
+    height: 100px;
+  }
+
+/* == Knop ↻ == */
+
   /* .Knop {
-    display: flex;
-    justify-content: center;
     box-shadow: 4px 4px 4px grey;
     background: linear-gradient(95deg, #39C8F6, #4169EB, #3631D4);
-    margin: auto;
-    margin-top: 60px;
     width: 170px;
     height: 35px;
     border-radius: 20px;
-    align-items: center;
+    position: fixed;
+    bottom: 5%;
+    right: 125px;
   }
   
   .Lower {
@@ -37,6 +47,11 @@ body {
     border-top-right-radius: 50px;
     border-top-left-radius: 50px;
   } */
+
+  /* == Einde Knop ↻ == */
+
+
+  /* == Informatie == */
 
 #Informatie {
   display: flex;
@@ -55,7 +70,7 @@ body {
 }
 
 .Informatie-Heading span {
-  color: #f33c3c;
+  color: white;
 }
 
 .Informatie-Heading h3 {
@@ -128,6 +143,11 @@ body {
   transition: all ease 0.3s;
 }
 
+/* == Einde Informatie == */
+
+
+/* == Media Quarrys == */
+
 @Media(max-width:1250px) {
   .Informatie-Box {
     width: 300px;
@@ -155,5 +175,6 @@ body {
   .Informatie-Title {
     font-size: 16px;
   }
-  }
 }
+
+/* == Einde Media Quarrys == */

@@ -1,78 +1,35 @@
+<!-- 
+        //////////////////////////////////////////
+        Made by Jamie Vos, Mediacollege Amsterdam. 
+        //////////////////////////////////////////
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Stylesheets/Bluetooth.css">
-    <title>Bluetooth</title>
-    <style>
-
-        body,html {
-            height: 100%;
-        }
-
-        body {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 0;
-        }
-
-        .bg {
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: #ef5350;
-            z-index: -1;
-            transition: background 0.3s linear;
-        }
-
-        input {
-            display: none;
-        }
-
-        .toggle {
-            width: 100px;
-            height: 50px;
-            background: white;
-            border-radius: 35px;
-            position: relative;
-            cursor: pointer;
-        }
-
-        .toggle-switch:before{
-            content: "";
-            position: absolute;
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            background-color: #ef5350;
-            bottom: 5px;
-            left: 5px;
-            transition: 0.3s ease-in-out;
-        }
-
-        
-
-    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <title>Radicale kunstspeeltuin</title>  
 </head>
 <body>
-    <div class="lower">
-        <a href="Homepage.html">
-            <div class="lower-knop"></div>
-        </a>
+
+    <div class="field">
+        <canvas id="canvas"></canvas>
+        <div class="tools">
+            <button class="button" onclick="Restore()">Undo</button>
+            <button class="button" onclick="Clear()">Clear</button>
+
+            <div onclick="change_color(this)" style="background:red" class="stroke-color"></div>
+            <div onclick="change_color(this)" style="background:blue" class="stroke-color"></div>
+            <input type="color" oninput="stroke_color = this.value" placeholder="Colors"></div>
+            <input type="range" min="1" max="100" oninput="stroke_width = this.value">
+        </div>
     </div>
-
-    <label class="toggle">
-        <input type="checkbox">
-        <span class="toggle-switch"></span>
-        <div class="x-shape"></div>
-        <div class="v-shape"></div>
-        <div class="bg"></div>
-    </label>
-
 </body>
+
+<script src="canvas.js"></script>
+
 </html>
+

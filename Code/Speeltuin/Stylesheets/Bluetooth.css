@@ -1,29 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Mukta');
+
+:root{}
 
 body {
-    background: white;
-    font-family: sans-serif;
-  }
+  margin: 0px;
+  padding: 30px;
+  font-family: "Mukta";
+  overflow: hidden;
+  background: #89BEFA;
+}
 
-  .lower-knop {
-    display: flex;
-    justify-content: center;
-    box-shadow: 4px 4px 4px grey;
-    background: linear-gradient(95deg, #39C8F6, #4169EB, #3631D4);
-    margin: auto;
-    margin-top: 60px;
-    width: 170px;
-    height: 35px;
-    border-radius: 20px;
-    align-items: center;
-  }
-  
-  .lower {
-    position: absolute;
-    bottom: 0px;
-    height: 130px;
-    width: 100%;
-    left: 0;
-    border-top-right-radius: 50px;
-    border-top-left-radius: 50px;
-  
-  }
+canvas {
+  box-shadow: 15px 15px black;
+  cursor: pointer;
+}
+
+.tools {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 15px;
+}
+
+.tools .color-field {
+  height: 40px;
+  widows: 40px;
+  min-height: 40px;
+  min-width: 40px;
+  cursor: pointer;
+  display: inline-block;
+  cursor: pointer;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border: 2px solid white;
+  align-self: center;
+  margin: 0 10px;
+}
+
+.tools .button {
+  align-self: center;
+  width: 100px;
+  height: 40px;
+  border: 2px solid white;
+  cursor: pointer;
+  color: white;
+  background: #222;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.color-picker {
+  align-self: center;
+  margin: 0 15px;
+  height: 50px;
+}
+
+.pen-range {
+  align-self: center;
+  margin: 0 10px;
+}

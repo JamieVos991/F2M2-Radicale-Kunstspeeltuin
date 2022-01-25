@@ -13,17 +13,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Stylesheets/Homepage.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
     <title>Radicale kunstspeeltuin</title>
 </head>
 
 <body>
     
-    <a class="title">
-        Welcome to <br>
-        Kusama
-    </a>
+    <svg viewBox="0 0 960 300">
+        <symbol id="s-text">
+            <text text-anchor="middle" x="50%" y="80%">Welcome to Kusama</text>
+        </symbol>
+    
+        <g class = "g-ants">
+            <use xlink:href="#s-text" class="text-copy"></use>
+            <use xlink:href="#s-text" class="text-copy"></use>
+            <use xlink:href="#s-text" class="text-copy"></use>
+            <use xlink:href="#s-text" class="text-copy"></use>
+            <use xlink:href="#s-text" class="text-copy"></use>
+        </g>
+    </svg>
     <a class="subtitle">
-        leving van Yayoi Kusama. voel, loop en beleef met echte<br> tentakels, pompoenen en licht. 
+        Leving van Yayoi Kusama.<br> voel, loop en beleef met echte<br> tentakels, pompoenen en licht. 
     </a>
 
     <i class="fa fa-arrow-down" id="arrow-down" aria-hidden="true"></i>
@@ -32,12 +42,12 @@
         <div class="knoppen">
             <a href="RainbowBox.html">
                 <div class="knop-1">
-                    <i class="fa fa-paint-brush" aria-hidden="true"></i>
+                    <i class="fa fa-bluetooth-b" aria-hidden="true"></i>
                 </div>
             </a>
             <a href="Bluetooth.html">
                 <div class="knop-2">
-                    <i class="fa fa-bluetooth-b" aria-hidden="true"></i>
+                    <i class="fa fa-paint-brush" aria-hidden="true"></i>
                 </div>
             </a>
             <a href="About.html">
@@ -46,9 +56,8 @@
                 </div>
             </a>
         </div>
-        <a href="homepage.html">
+        <a href="Index.html">
             <div class="lower-knop">
-                <!-- <i class="fa fa-long-arrow-left" id="long-arrow" aria-hidden="true"></i> -->
             </div>
         </a>
     </div>
