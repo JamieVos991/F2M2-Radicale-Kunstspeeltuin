@@ -1,0 +1,8 @@
+node_modules
+package-lock.json
+.vscode
+.ftpconfig
+storage
+config.json
+config.old.json
+storage.json
