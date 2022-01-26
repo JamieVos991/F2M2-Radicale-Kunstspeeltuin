@@ -79,9 +79,9 @@ Software developer:<br><br>
 
 <li><a href="https://github.com/JamieVos991/F2M6-Radicale-Kusntspeeltuin">GitHub</a></li>
 
-<li><a href="http://31694.hosts1.ma-cloud.nl/Logboek/">Logboek</a></li>
+<li><a href="https://31694.hosts1.ma-cloud.nl/Logboek/index.html">Logboek</a></li>
 
-<li><a href="http://31694.hosts1.ma-cloud.nl/Logboek/bron.html">Bron</a></li>
+<li><a href="https://31694.hosts1.ma-cloud.nl/Logboek/bron.html">Bron</a></li>
 
 <li><a href="#">Test plan</a></li>
 
