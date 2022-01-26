@@ -1,3 +1,6 @@
+
+# Gitignore negeert bestanden die je totaal niet in je repository wil hebben
+
 node_modules
 package-lock.json
 .vscode

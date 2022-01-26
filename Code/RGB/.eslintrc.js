@@ -1,3 +1,6 @@
+
+// ESLint annaliseert problemen in de code en fixed automatisch
+
 module.exports = {
     "env": {
         "browser": true,
