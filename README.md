@@ -36,13 +36,13 @@ sudo node index.js
 #### 4. Configureer
 Bezoek http://127.0.0.1 of localhost in jouw browser and configureer de app met jouw setup. (Je kan ook handmatig de config.json editten nadat die aangemaakt is).
 
-#### 4.1 Pi GPIO instellingen
+#### 5 Pi GPIO instellingen
 Geef het pinnummer op dat je hebt gebruikt om elk kleurkanaal op jouw Raspberry PiGPIO aan te sluiten. ("Gebruik Pi GPIO" optie moet worden aangevinkt in instellingen).
 
-#### 4.2 Port instellingen
+#### 6 Port instellingen
 Server port: de port voor de server om te starten is 80 voor de default http port.
 
-#### 4.3 Online setup
+#### Extra Online setup
 - Server URL: Je ontvangt een url, bijvoorbeeld https://flkajsfljas.loca.lt, die je met iedereen kunt delen zolang jouw lokale server van lt actief blijft. Alle verzoeken worden doorgestuurd naar jouw lokale service op de opgegeven poort.
 
 ```
@@ -53,13 +53,13 @@ lt --port 80
 ```
 -----------------------------------------------------------------
 
-### Opdracht:
+### Opdracht: 
 
 Ontwikkel met een multidisciplinair team (studenten van RV, MV, SD) een concept voor een speelse immersieve ruimte van 2,5 meter bij 2,5 meter. Je ontwerpt hiervoor een interactieve installatie met een mapped projectie die geïnspireerd is op het werk van de Nederlandse kunstenaar van jullie keuze. De installatie is ruimtelijk en immersief, interactief, hedendaags en spannend maar veilig. Alle ruimtes samen vormen een kunstspeeltuin, dus denk na over een uitdagende indeling van de ruimtes. We hadding de beschikking over een budget van €150,00.
 
 ----------------------------------------------------------------- 
 
-### Team:
+### Team: 
 
 Ruimtelijke vormgevers: <br>
 <li><a href="https://www.linkedin.com/in/finnvansluis/?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADJNCqYBh1FKVtlLMVtKiCFEKqumi2HlFPg">Finn</a><br></li>
