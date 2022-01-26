@@ -32,19 +32,14 @@ npm install
 sudo node index.js
 ``` 
 #### 4. Configureer
-Bezoek http://127.0.0.1 of localhost in jouw browser and configureer de app met jouw setup. (Je kan ook handmatig de config.json editten nadat die aangemaakt is.)
+Bezoek http://127.0.0.1 of localhost in jouw browser and configureer de app met jouw setup. (Je kan ook handmatig de config.json editten nadat die aangemaakt is).
 
 #### 4.1 Pi GPIO instellingen
 Geef het pinnummer op dat je hebt gebruikt om elk kleurkanaal op jouw Raspberry PiGPIO aan te sluiten. ("Gebruik Pi GPIO" optie moet worden aangevinkt in instellingen).
 
 #### 4.2 Backend settings
-Server port: the port for the server to run on (use 80 for default http port)
+Server port: de port voor de server om te starten (gebruik 80 voor de default http port).   
 
-Server Mode:
-- Local Server:
-Run RPiLC as server, you must have one RPiLC instance running at that mode.
-- Remote:
-This option will run RPiLC as a Client. When selecting this mode, the rest of the Backend settings will be ignored and you will have to specify Server URL in the Remote Setings section. (the server must allow remote SIO devices)
 #### 4.3 Remote Setings
 - Server URL: will only take effect when running in remote mode, enter the URL of the machine running RPiLC Server. (for example: http://192.178.1.0)
 -----------------------------------------------------------------
