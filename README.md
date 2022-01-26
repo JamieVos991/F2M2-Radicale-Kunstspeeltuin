@@ -14,10 +14,29 @@ Om de repository te gebruiken, heb je nodig:
 
 -----------------------------------------------------------------
 
+##  Installeer de ledstrip op jouw Pi
+
+#### 1. Download de files.
+
+git clone https://github.com/Winor/RPiLC
+```
+#### 2. Install dependencies
+
+```
+cd RPiLC
+npm install
+```
+#### 3. Run
+Note that in order to run RPiLC, the app has to be ran with root privilags so it can have accsess to the Pi's GPIO.
+```
+sudo node index.js
+``` 
+
+-----------------------------------------------------------------
+
 <h3>Opdracht:</h3>
 
 Ontwikkel met een multidisciplinair team (studenten van RV, MV, SD) een concept voor een speelse immersieve ruimte van 2,5 meter bij 2,5 meter. Je ontwerpt hiervoor een interactieve installatie met een mapped projectie die geïnspireerd is op het werk van de Nederlandse kunstenaar van jullie keuze. De installatie is ruimtelijk en immersief, interactief, hedendaags en spannend maar veilig. Alle ruimtes samen vormen een kunstspeeltuin, dus denk na over een uitdagende indeling van de ruimtes.
-
 
 ----------------------------------------------------------------- 
 
