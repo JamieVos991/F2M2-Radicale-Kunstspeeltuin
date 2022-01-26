@@ -46,6 +46,7 @@ Server port: de port voor de server om te starten is 80 voor de default http por
 ```
 npm install -g localtunnel
 ```
+```
 lt --port 80
 ```
 -----------------------------------------------------------------
