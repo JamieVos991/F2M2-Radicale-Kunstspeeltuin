@@ -1,4 +1,10 @@
-/* eslint-disable no-new-func */
+
+// Pigpio is een library voor de Raspberry dat controle toelaat voor de Genral Purpose Input Outputs (GPIO)
+
+// sudo apt-get update
+// sudo apt-get install pigpio python-pigpio python3-pigpio
+
+
 'use strict'
 const Gpio = require('pigpio').Gpio
 // creates an object that intracts with the RGB LED Strip

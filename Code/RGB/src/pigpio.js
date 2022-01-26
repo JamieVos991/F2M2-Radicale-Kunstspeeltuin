@@ -1,3 +1,6 @@
+
+// Pigpio Library
+
 'use strict'
 const logger = require('./logger.js')
 const Pio = require('./gpio.js')

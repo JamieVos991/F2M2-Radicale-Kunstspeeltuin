@@ -1,3 +1,6 @@
+
+// Kleuren cycles
+
 'use strict'
 const tinycolor = require('tinycolor2')
 const tinygradient = require('tinygradient')
@@ -162,7 +165,7 @@ class Light {
     return clist
   }
 
-  // get color gradient array
+ // Genereert gradient kleur array
   getgradient (colors) {
     const gradient = tinygradient(colors)
     const steps = gradient.rgb(110)

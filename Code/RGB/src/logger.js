@@ -1,3 +1,6 @@
+
+// Config JSON
+
 'use strict'
 const fs = require('fs')
 const configfile = fs.readFileSync('config.json')
