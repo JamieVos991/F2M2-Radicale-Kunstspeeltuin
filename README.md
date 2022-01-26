@@ -1,4 +1,4 @@
-## Radicale kunstspeeltuin
+### Met RPiLC kunt u meerdere RGB-LED's bedienen vanaf een enkele server die op één Raspberry Pi kan worden uitgevoerd.
 
 <h3>Team</h3>
 
@@ -18,6 +18,16 @@ SD:<br><br>
 
 Ontwikkel met een multidisciplinair team (studenten van RV, MV, SD) een concept voor een speelse immersieve ruimte van 2,5 meter bij 2,5 meter. Je ontwerpt hiervoor een interactieve installatie met een mapped projectie die geïnspireerd is op het werk van de Nederlandse kunstenaar van jullie keuze. De installatie is ruimtelijk en immersief, interactief, hedendaags en spannend maar veilig. Alle ruimtes samen vormen een kunstspeeltuin, dus denk na over een uitdagende indeling van de ruimtes.
 
+
+----------------------------------------------------------------- 
+
+## Prerequisites
+In order to use RPiLC you need:
+* A Raspberry Pi.
+* Node.js version 8.0.0 or newer installed (you can follow [this](https://github.com/nodesource/distributions/blob/master/README.md) to install the latest Node.js version on your Pi).
+* Pigpio C library (Version V41 or higher)
+* Python-setuptools & Python3-setuptools (required for Pigpio)
+* RGB led strip connected to the Pi's GPIO (you can follow [this guide](http://dordnung.de/raspberrypi-ledstrip/) for wiring)
 
 -----------------------------------------------------------------
 
