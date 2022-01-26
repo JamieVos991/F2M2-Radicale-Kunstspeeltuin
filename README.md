@@ -36,13 +36,13 @@ sudo node index.js
 #### 4. Configureer
 Bezoek http://127.0.0.1 of localhost in jouw browser and configureer de app met jouw setup. (Je kan ook handmatig de config.json editten nadat die aangemaakt is).
 
-#### 5 Pi GPIO instellingen
+#### 5. Pi GPIO instellingen
 Geef het pinnummer op dat je hebt gebruikt om elk kleurkanaal op jouw Raspberry PiGPIO aan te sluiten. ("Gebruik Pi GPIO" optie moet worden aangevinkt in instellingen).
 
-#### 6 Port instellingen
+#### 6. Port instellingen
 Server port: de port voor de server om te starten is 80 voor de default http port.
 
-#### Extra Online setup
+#### Extra. Online setup
 - Server URL: Je ontvangt een url, bijvoorbeeld https://flkajsfljas.loca.lt, die je met iedereen kunt delen zolang jouw lokale server van lt actief blijft. Alle verzoeken worden doorgestuurd naar jouw lokale service op de opgegeven poort.
 
 ```
