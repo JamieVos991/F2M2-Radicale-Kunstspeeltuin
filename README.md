@@ -2,9 +2,9 @@
 
 Thema van deze periode is kunst en cultuur. Wat is kunst tegenwoordig? En welke plek heeft technologie in de kunst? Bezoekers van tentoonstellingen willen steeds meer ondergedompeld, vermaakt en geraakt worden.Naar een ‘gewoon’ kunstwerk kijkt men maar een paar seconden, er moet wat te beleven zijn.Eenideale situatie voor jullie als media-experts, zeker wanneer jullieje krachten bundelen.Aan jullie de te taak om een samenwerking aan te gaan in een team van ruimtelijk vormgevers, mediavormgevers en softwaredeveloppersom het werk van een kunstenaar tot leven te brengen in een betoverende ruimte. Jullie toveren deFactoryom tot een kunstspeeltuin waarbezoekers willen blijven hangen.
 
-### Met deze repository kan je ook zelf meerdere RGB-LED's bedienen vanaf een enkele server die op één Raspberry Pi kan worden uitgevoerd.
-
 -----------------------------------------------------------------
+
+### Met deze repository kan je ook zelf meerdere RGB-LED's bedienen vanaf een enkele server die op één Raspberry Pi kan worden uitgevoerd.
 
 ## Wat heb je nodig?
 Om de repository te gebruiken, heb je nodig:
