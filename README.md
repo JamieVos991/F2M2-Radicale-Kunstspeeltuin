@@ -8,9 +8,9 @@
 Om de repository te gebruiken, heb je nodig:
 * Een Raspberry Pi.
 * Node.js version 8.0.0 of nieuwer geinstalleerd (Je kan [deze](https://github.com/nodesource/distributions/blob/master/README.md) website volgen om de laatste versie van Node.js te downloaden op jouw PI).
-* Pigpio C library (Versie V41 of hoger)
-* Python-setuptools & Python3-setuptools (nodig for Pigpio)
-* RGB led strip connected naar de Pi's GPIO (Je kan [deze](http://dordnung.de/raspberrypi-ledstrip/) website volgen voor hardware)
+* Pigpio C library (Versie V41 of hoger).
+* Python-setuptools & Python3-setuptools (nodig for Pigpio).
+* RGB led strip connected naar de Pi's GPIO (Je kan [deze](http://dordnung.de/raspberrypi-ledstrip/) website volgen voor hardware).
 
 -----------------------------------------------------------------
 
@@ -21,14 +21,13 @@ Om de repository te gebruiken, heb je nodig:
 ```
 git clone https://github.com/JamieVos991/F2M2-Radicale-Kunstspeeltuin
 ```
-#### 2. Install dependencies
+#### 2. Installeer 
 
 ```
-cd RPiLC
+cd Ledstrip
 npm install
 ```
 #### 3. Run
-Note that in order to run RPiLC, the app has to be ran with root privilags so it can have accsess to the Pi's GPIO.
 ```
 sudo node index.js
 ``` 
@@ -53,17 +52,7 @@ MV:<br><br>
 SD:<br><br>
 <li><a href="https://www.linkedin.com/in/jamie-vos-0a0b4a18a/">Jamie</a><br></li>
 
------------------------------------------------------------------
-
-## Wat heb je nodig?
-In order to use RPiLC you need:
-* A Raspberry Pi.
-* Node.js version 8.0.0 or newer installed (you can follow [this](https://github.com/nodesource/distributions/blob/master/README.md) to install the latest Node.js version on your Pi).
-* Pigpio C library (Version V41 or higher)
-* Python-setuptools & Python3-setuptools (required for Pigpio)
-* RGB led strip connected to the Pi's GPIO (you can follow [this guide](http://dordnung.de/raspberrypi-ledstrip/) for wiring)
-
------------------------------------------------------------------
+----------------------------------------------------------------------
 
 <li><a href="https://trello.com/b/qR8TTk2Y/radicale-kunstspeeltuin">Trello board</a></li>
 
