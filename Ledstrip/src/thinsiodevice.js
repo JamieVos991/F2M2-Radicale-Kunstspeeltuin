@@ -81,14 +81,6 @@ require('./server.js').of('/thindevice')
             socket.id
           ))
       })
-      // devices[socket.id] = new Thin(
-      //   'RGB',
-      //   socket.id,
-      //   'Thin SIO Device',
-      //   new Msg(socket),
-      //   'black',
-      //   'white'
-      // )
     })
 
     socket.on('disconnect', () => {

@@ -1,5 +1,5 @@
 
-// ESLint annaliseert problemen in de code en fixed automatisch
+// ESLint annaliseert problemen in de code en fixed het automatisch.
 
 module.exports = {
     "env": {

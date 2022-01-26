@@ -60,15 +60,5 @@ module.exports = {
       });
     }
   },
-  // ConfigConstract: function (config) {
-  //   this.ConfigData.gpio.rgb.red = config.red;
-  //   this.ConfigData.gpio.rgb.green = config.green;
-  //   this.ConfigData.gpio.rgb.blue = config.blue;
-  //   this.ConfigData.server_settings.webserverport = config.port;
-  //   this.ConfigData.server_settings.debug = config.debug;
-  //   this.ConfigData.RPiLC_settings.startupcolor = config.startcolor;
-  //   this.ConfigData.RPiLC_settings.on_color = config.oncolor;
-  //   this.ConfigData.AutoGen = false;
-  // },
 }
 

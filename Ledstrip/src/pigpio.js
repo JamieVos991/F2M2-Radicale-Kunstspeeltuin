@@ -80,16 +80,3 @@ function createpinsfromconfig () {
 }
 
 createpinsfromconfig()
-
-// devices['local-1'].setcycle(true)
-// devices['local-0'].brightness = 20
-// devices['local-0'].setcycle(true, ['green', 'yellow', 'blue', 'purple'])
-
-// console.log(devices)
-// devices["local-0"].color = "white"
-//  devices["local-1"].color = "red"
-
-//  devices["local-0"].io.set(0,255,0)
-//  devices["local-1"].setcolor(0,255,0)
-// for (let i = 0; i < 255; i++) {
-//   devices["local-0"].color = "rgb 255 0 "+ i

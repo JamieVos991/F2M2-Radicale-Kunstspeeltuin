@@ -145,6 +145,3 @@ function npminstall () {
   })
 }
 
-// call('https://api.github.com/repos/winor/rpilc/releases/latest').then(console.log)
-// dl('https://github.com/Winor/RPiLC/archive/v1.3.0-beta.zip','test.zip').then(console.log)
-// module.exports.CheckForUpdates().then(result => { module.exports.update();});

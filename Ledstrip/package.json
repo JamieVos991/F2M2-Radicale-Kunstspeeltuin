@@ -1,17 +1,23 @@
+
 {
-  "name": "rpilc",
+
+
+  "_comment": "Package.json is voor om metadata te bewaren.",
+
+
+  "name": "ledstrip",
   "version": "2.1.4",
-  "author": "Winor",
+  "author": "Jamie",
   "keywords": [
     "led strip controler",
     "raspberry-pi",
     "web"
   ],
-  "description": "RPiLC allows you to easily control your RGB led strip using a Raspberry Pi",
+  "description": "Met deze repository kan je ook zelf meerdere RGB-LED's bedienen vanaf een enkele server die op één Raspberry Pi kan worden uitgevoerd.",
   "license": "GPL-3.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Winor/RPiLC.git"
+    "url": "https://github.com/JamieVos991/F2M2-Radicale-Kunstspeeltuin"
   },
   "main": "index.js",
   "scripts": {
