@@ -32,11 +32,10 @@ npm install
 sudo node index.js
 ``` 
 #### 4. Configureer
-Bezoek http://127.0.0.1 in jouw browser and configureer de app met jouw setup.
-(Je kan ook handmatig de config.json editten nadat die aangemaakt is.)
+Bezoek http://127.0.0.1 of localhost in jouw browser and configureer de app met jouw setup. (Je kan ook handmatig de config.json editten nadat die aangemaakt is.)
 
-#### 4.1 Pi GPIO settings
-Specify the Pin number you used to connect each color channel to your Raspberry Pi GPIO, add new device for more RGB Leds. ("Use Pi GPIO" option must be checked in Backend settings)
+#### 4.1 Pi GPIO instellingen
+Geef het pinnummer op dat je hebt gebruikt om elk kleurkanaal op jouw Raspberry PiGPIO aan te sluiten. ("Gebruik Pi GPIO" optie moet worden aangevinkt in instellingen).
 
 #### 4.2 Backend settings
 Server port: the port for the server to run on (use 80 for default http port)
