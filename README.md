@@ -16,7 +16,7 @@ Om de repository te gebruiken, heb je nodig:
 
 ##  Installeer de ledstrip op jouw Pi
 
-#### 1. Download de files.
+#### 1. Clone de repository.
 
 ```
 git clone https://github.com/JamieVos991/F2M2-Radicale-Kunstspeeltuin
@@ -31,7 +31,23 @@ npm install
 ```
 sudo node index.js
 ``` 
+#### 4. Configureer
+Bezoek http://127.0.0.1 in jouw browser and configureer de app met jouw setup.
+(Je kan ook handmatig de config.json editten nadat die aangemaakt is.)
 
+#### 4.1 Pi GPIO settings
+Specify the Pin number you used to connect each color channel to your Raspberry Pi GPIO, add new device for more RGB Leds. ("Use Pi GPIO" option must be checked in Backend settings)
+
+#### 4.2 Backend settings
+Server port: the port for the server to run on (use 80 for default http port)
+
+Server Mode:
+- Local Server:
+Run RPiLC as server, you must have one RPiLC instance running at that mode.
+- Remote:
+This option will run RPiLC as a Client. When selecting this mode, the rest of the Backend settings will be ignored and you will have to specify Server URL in the Remote Setings section. (the server must allow remote SIO devices)
+#### 4.3 Remote Setings
+- Server URL: will only take effect when running in remote mode, enter the URL of the machine running RPiLC Server. (for example: http://192.178.1.0)
 -----------------------------------------------------------------
 
 ### Opdracht:
