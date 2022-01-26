@@ -61,11 +61,11 @@ Ontwikkel met een multidisciplinair team (studenten van RV, MV, SD) een concept 
 
 <h3>Team</h3>
 
-Ruimtelijke Vormgevers: <br>
+Ruimtelijke vormgevers: <br>
 <li><a href="https://www.linkedin.com/in/finnvansluis/?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADJNCqYBh1FKVtlLMVtKiCFEKqumi2HlFPg">Finn</a><br></li>
 <li><a href="#">Joost</a><br></li>
 <li><a href="#">Tessa</a><br></li><br>
-Mediavormgevers:<br><br>
+Media vormgevers:<br><br>
 <li><a href="https://www.linkedin.com/insimon-van-trirum-552a281a8miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADCP0w4BBIwQoFFH52GWnzbigp_s4bk5viY">Simon</a><br></li>
 <li><a href="https://www.linkedin.com/in/disa-wilms-9236a81a3/?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAC-fXSsBt2efB5z0Sy0XWiczBvYfpJgBJ8s">Disa</a><br></li><br>
 Software developer:<br><br>
