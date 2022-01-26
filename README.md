@@ -18,7 +18,8 @@ Om de repository te gebruiken, heb je nodig:
 
 #### 1. Download de files.
 
-git clone https://github.com/Winor/RPiLC
+```
+git clone https://github.com/JamieVos991/F2M2-Radicale-Kunstspeeltuin
 ```
 #### 2. Install dependencies
 
