@@ -59,7 +59,7 @@ Ontwikkel met een multidisciplinair team (studenten van RV, MV, SD) een concept 
 
 ----------------------------------------------------------------- 
 
-<h3>Team</h3>
+### Team:
 
 Ruimtelijke vormgevers: <br>
 <li><a href="https://www.linkedin.com/in/finnvansluis/?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADJNCqYBh1FKVtlLMVtKiCFEKqumi2HlFPg">Finn</a><br></li>
@@ -72,6 +72,8 @@ Software developer:<br><br>
 <li><a href="https://www.linkedin.com/in/jamie-vos-0a0b4a18a/">Jamie</a><br></li>
 
 ----------------------------------------------------------------------
+
+### Links:
 
 <li><a href="https://trello.com/b/qR8TTk2Y/radicale-kunstspeeltuin">Trello board</a></li>
 
