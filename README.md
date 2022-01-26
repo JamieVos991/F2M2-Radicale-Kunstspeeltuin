@@ -4,6 +4,16 @@
 
 -----------------------------------------------------------------
 
+## Wat heb je nodig?
+Om de repository te gebruiken, heb je nodig:
+* Een Raspberry Pi.
+* Node.js version 8.0.0 of nieuwer geinstalleerd (Je kan deze website volgen [this](https://github.com/nodesource/distributions/blob/master/README.md) om de laatste versie van Node.js te downloaden op jouw PI).
+* Pigpio C library (Versie V41 of hoger)
+* Python-setuptools & Python3-setuptools (nodig for Pigpio)
+* RGB led strip connected naar de Pi's GPIO (Je kan deze website volgen [this guide](http://dordnung.de/raspberrypi-ledstrip/) voor hardware)
+
+-----------------------------------------------------------------
+
 <h3>Opdracht:</h3>
 
 Ontwikkel met een multidisciplinair team (studenten van RV, MV, SD) een concept voor een speelse immersieve ruimte van 2,5 meter bij 2,5 meter. Je ontwerpt hiervoor een interactieve installatie met een mapped projectie die geïnspireerd is op het werk van de Nederlandse kunstenaar van jullie keuze. De installatie is ruimtelijk en immersief, interactief, hedendaags en spannend maar veilig. Alle ruimtes samen vormen een kunstspeeltuin, dus denk na over een uitdagende indeling van de ruimtes.
