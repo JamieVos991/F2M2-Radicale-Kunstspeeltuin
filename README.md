@@ -38,10 +38,10 @@ Bezoek http://127.0.0.1 of localhost in jouw browser and configureer de app met 
 Geef het pinnummer op dat je hebt gebruikt om elk kleurkanaal op jouw Raspberry PiGPIO aan te sluiten. ("Gebruik Pi GPIO" optie moet worden aangevinkt in instellingen).
 
 #### 4.2 Port instellingen
-Server port: de port voor de server om te starten is 80 voor de default http port).
+Server port: de port voor de server om te starten is 80 voor de default http port.
 
 #### 4.3 Online setup
-- Server URL: will only take effect when running in remote mode, enter the URL of the machine running RPiLC Server. (for example: http://192.178.1.0)
+- Server URL: Je ontvangt een url, bijvoorbeeld https://flkajsfljas.loca.lt, die je met iedereen kunt delen zolang jouw lokale server van lt actief blijft. Alle verzoeken worden doorgestuurd naar jouw lokale service op de opgegeven poort.
 
 ```
 npm install -g localtunnel
