@@ -7,10 +7,10 @@
 ## Wat heb je nodig?
 Om de repository te gebruiken, heb je nodig:
 * Een Raspberry Pi.
-* Node.js version 8.0.0 of nieuwer geinstalleerd (Je kan deze website volgen [this](https://github.com/nodesource/distributions/blob/master/README.md) om de laatste versie van Node.js te downloaden op jouw PI).
+* Node.js version 8.0.0 of nieuwer geinstalleerd (Je kan [deze](https://github.com/nodesource/distributions/blob/master/README.md) website volgen om de laatste versie van Node.js te downloaden op jouw PI).
 * Pigpio C library (Versie V41 of hoger)
 * Python-setuptools & Python3-setuptools (nodig for Pigpio)
-* RGB led strip connected naar de Pi's GPIO (Je kan deze website volgen [this guide](http://dordnung.de/raspberrypi-ledstrip/) voor hardware)
+* RGB led strip connected naar de Pi's GPIO (Je kan [deze](http://dordnung.de/raspberrypi-ledstrip/) website volgen voor hardware)
 
 -----------------------------------------------------------------
 
