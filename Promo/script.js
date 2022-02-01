@@ -1,7 +1,9 @@
-const hamburger = document.querySelector(".hamburger");
-const navMenu = document.querySelector(".nav-menu");
+var height = $('#header').height();
 
-hamburger.addEventListener("click", () => {
-    hamburger.classList.toggle("active");
-    navMenu.classList.toggle("active");
-})
+$ (window).scroll(function () {
+    if($(this).scrollTop() > height) {
+        $( '.navbar' ) .addClass('fixed');
+    } else {
+        $( '.navbar' ).removeClass('fixed');
+    }
+});
