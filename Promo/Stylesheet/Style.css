@@ -42,7 +42,7 @@ main {
 }
 
 .custom-shape-divider-bottom-1643722922 .shape-fill {
-    fill: orange;
+    fill: #186AA5;
 }
 
 /** For tablet devices **/
@@ -258,12 +258,12 @@ nav {
     font-weight: bold;
     font-size: 30px;
     letter-spacing: 3px;
-    color: #186AA5;
+    color: white;
 }
 
 #Download {
     height: 1000px;
-    background: orange;
+    background: #186AA5;
 }
 
 #Download .INTV {
