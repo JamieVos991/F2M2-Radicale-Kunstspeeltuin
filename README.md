@@ -83,7 +83,7 @@ Software developer:<br><br>
 
 <li><a href="https://31694.hosts1.ma-cloud.nl/Logboek/bron.html">Bron</a></li>
 
-<li><a href="Files\Materialen + kostenbereking lijst.pdf">
+<li><a href="Files\Materialen + kostenbereking lijst.pdf">Materialen lijst + Kostenberekening</a></li>
 
 <li><a href="Files/Testplan.pdf">Test plan</a></li>
 
