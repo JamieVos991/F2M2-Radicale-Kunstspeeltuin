@@ -8,47 +8,50 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Radicale kunstspeeltuin Promo</title>
     <link rel="stylesheet" href="Stylesheet/Style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <script defer src="node_modules/swup/dist/swup.min.js"></script>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
 </head>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
-    <script>
-        $(function () {
-            $(".toggle").on("click", function () {
-                if ($(".item").hasClass("active")) {
-                    $(".item").removeClass("active");
-                } else {
-                    $(".item").addClass("active");
-                }
-            });
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+<script>
+
+    $(function () {
+        $(".toggle").on("click", function () {
+            if ($(".item").hasClass("active")) {
+                $(".item").removeClass("active");
+            } else {
+                $(".item").addClass("active");
+            }
         });
-    </script>
+    });
+</script>
 
 </head>
 
 <body>
-    <header id="header">
-
-    </header>
-    <nav class="navbar">
-        <ul class="menu">
-            <li class="logo"><a href="#">Younique</a></li>
-            <li class="item"><a href="#Download">Download</a></li>
-            <li class="item"><a href="#HWDA">Hoe werkt de app?</a></li>
-            <li class="item"><a href="#Team">Ons Team</a></li>
-            <li class="item"><a href="#Info">Info</a></li>
-            <li class="item"><a href="#Contact">Contact</a></li>
-            </li>
-            <li class="toggle"><span class="bars"></span></li>
-        </ul>
-    </nav>
-    </section>
 
     <main>
+        <div class="header">
+            <nav class="navbar">
+                <ul class="menu">
+                    <li class="logo"><a href="Index.html">Younique</a></li>
+                    <li class="item"><a href="Download.html">Download</a></li>
+                    <li class="item"><a href="HWDA.html">Hoe werkt de app?</a></li>
+                    <li class="item"><a href="Team.html">Ons Team</a></li>
+                    <li class="item"><a href="Info.html">Info</a></li>
+                    <li class="item"><a href="Contact.html">Contact</a></li>
+                    </li>
+                    <li class="toggle"><span class="bars"></span></li>
+                </ul>
+            </nav>
+        </div>
+
         <section id="Connect">
             <header>
                 <h2>Tentoonstelling Yayoi Kusama</h2>
-                <h4>Beleving van Yayoi Kusama. voel, loop en beleef met echte<br> tentakels, pompoenen en licht.</h4>
+                <h4>Beleving van Yayoi Kusama. voel, loop en beleef met echte<br> tentakels, pompoenen en licht.
+                </h4>
 
             </header>
 
@@ -56,163 +59,37 @@
 
             </p>
 
-            <div class="custom-shape-divider-bottom-1643722922">
-                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                    <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+            <div class="custom-shape-divider-bottom-1643734861">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                    preserveAspectRatio="none">
+                    <path
+                        d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+                        opacity=".25" class="shape-fill"></path>
+                    <path
+                        d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+                        opacity=".5" class="shape-fill"></path>
+                    <path
+                        d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+                        class="shape-fill"></path>
                 </svg>
             </div>
 
         </section>
 
-        <div id="hoofdm" class="richtpunt"></div>
-        <section id="Download">
-            <ol>
-                <br>
-                <p class="INTV">
-                    Download de app
-                </p>
-            </ol>
-        </section>
-
-        <div id="bijm" class="richtpunt"></div>
-        <section id="HWDA">
-            <ol>
-                <br>
-                <p class="WJD">
-                    Hoe werkt de app?
-                </p>
-            </ol>
-        </section>
-
-        <div id="nam" class="richtpunt"></div>
-        <section id="Team">
-            <ol>
-                <br>
-                <p class="BehindTS">
-                    Ons Team
-                </p>
-
-            </ol>
-        </section>
-
-        <div id="nanam" class="richtpunt"></div>
-        <section id="Info">
-
-            <ol>
-                <br>
-
-                <p class="CT1">
-                    Info Yayoi Kusama
-                </p>
-                <h4 class="title">YAYOI KUSAMA</h4>
-                <p class="CT">
-
-                    Yayoi Kusama (geboren 22 maart 1929 in Matsumoto City, Japan) is<br> een hedendaagse Japanse
-                    kunstenaar, vooral bekend om haar <br>Infinity Mirror Rooms, evenals haar obsessieve gebruik van
-                    kleurrijke <br>stippen. Ze is niet alleen installatiekunstenaar, maar ook schilder,<br> dichter,
-                    schrijver en vormgever. <br><br>
-                    &nbsp; <br>&nbsp; <br>Yayoi Kusama werd geboren in de provinciale stad Matsumoto, <br>de prefectuur
-                    Nagano, Japan, in een welvarende familie van <br>zaadhandelaren, die de grootste zaaddistributeur in
-                    de regio<br> bezaten. Ze was de jongste van vier kinderen. Trauma’s in de vroege <br>kinderjaren
-                    (zoals het bespioneren van de buitenechtelijke affaires <br>van haar vader) versterkten bij haar een
-                    diep scepticisme over<br> menselijke seksualiteit en hebben een blijvende invloed gehad op <br>haar
-                    kunst.<br><br>
-                    &nbsp; <br>&nbsp; <br>De kunstenaar beschrijft vroege herinneringen aan het worden<br> omhuld door
-                    eindeloze bloemen in een veld op hun boerderij als<br> jong kind, evenals hallucinaties van stippen
-                    die alles om haar heen<br> bedekken. Deze stippen, die nu een Kusama-handtekening zijn, zijn
-                    <br>vanaf zeer jonge leeftijd een consistent motief in haar werk geweest. <br>Dit gevoel van
-                    zelfvernietiging door herhaling van een patroon, <br>naast angst voor seks en mannelijke
-                    seksualiteit in het bijzonder, zijn<br> thema’s die in haar oeuvre terugkomen.<br>
-                </p>
-
-                <p class="PT">
-                    Plaats en Tijd
-                </p>
-
-                <!-- <img class="img-info" src="/Files/DQrUnVLWsAAWVP-.jpg" width="600" height="330"> -->
-            </ol>
-        </section>
-
-        <div id="nanam" class="richtpunt"></div>
-        <section id="Contact">
-            <div class="container">
-                <div class="content">
-                    <div class="left-side">
-                        <div class="address details">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <div class="topic">Address</div>
-                            <div class="text-one">Amsterdam, Noord-Holland</div>
-                            <div class="text-two">Contactweg 10</div>
-                        </div>
-                        <div class="phone details">
-                            <i class="fas fa-phone-alt"></i>
-                            <div class="topic">Phone</div>
-                            <div class="text-one">+31 0669696969</div>
-                            <div class="text-two">+31 0669696969</div>
-                        </div>
-                        <div class="email details">
-                            <i class="fas fa-envelope"></i>
-                            <div class="topic">Email</div>
-                            <div class="text-one">Amsterdam@gmail.com</div>
-                            <div class="text-two">Info.Amsterdam@gmail.com</div>
-                        </div>
-                    </div>
-                    <div class="right-side">
-                        <div class="topic-text">Stuur ons een bericht</div>
-                        <p>
-                            Heb je vragen? E-mail ons!
-                        </p>
-                        <form action="#">
-                            <div class="input-box">
-                                <input type="text" placeholder="Vul je naam in">
-                            </div>
-                            <div class="input-box">
-                                <input type="text" placeholder="Vul je email adress in">
-                            </div>
-                            <div class="input-box message-box">
-                                <input type="text" placeholder="Content">
-                            </div>
-                            <div class="button">
-                                <input type="button" value="Stuur">
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script
+        type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"
+    ></script>
     <script src="script.js" type="text/javascript"></script>
+    <script src="https://unpkg.com/@barba/core"></script> -->
+    </main>
 </body>
 
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://unpkg.com/@barba/core"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+<script src="script.js"></script>
+
 </html>
-
-<!-- <p class="text-2">
-        Welkom bij de promo website voor de<br> tentoonstelling van Yayoi Kusama.<br> Voor als u naar de
-        tentoonstelling gaat kunt u <br> hier de app vinden om te contacten met de <br> lichten
-    </p>
-
-    <div class="icon">
-        <img src="Naamloos-7@0,5x.png" alt="" class="">
-        <img src="Naamloos-6@0,5x.png" alt="" class="">
-    </div>
-
-    <div class="circles">
-        <div class="circle-1">
-            <div class="lijn1"></div>
-            <div class="mini-circle-1">
-                1
-            </div>
-        </div>
-        <div class="circle-2">
-            <div class="mini-circle-1">
-                2
-            </div>
-        </div>
-        <div class="circle-3">
-            <div class="mini-circle-1">
-                3
-            </div>
-        </div>
-    </div>

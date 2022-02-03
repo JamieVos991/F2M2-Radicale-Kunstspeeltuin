@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Radicale kunstspeeltuin Promo</title>
+    <link rel="stylesheet" href="Stylesheet/Style.css">
+    <script defer src="node_modules/swup/dist/swup.min.js"></script>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+
+    <style>
+        
+        
+        .cirlce {
+            width: 400px;
+            height: 400px;
+            background: #186AA5;
+            margin: 10% auto;
+            border-radius: 50%;
+            position: relatives;
+        }
+
+        .content {
+            position: absolute;
+            width: inherit;
+            height: auto;
+            top: 50%;
+            transform: translateY(-50%);
+            text-align: center;
+        }
+
+    </style>
+</head>
+
+<script>
+    $(function () {
+        $(".toggle").on("click", function () {
+            if ($(".item").hasClass("active")) {
+                $(".item").removeClass("active");
+            } else {
+                $(".item").addClass("active");
+            }
+        });
+    });
+</script>
+
+</head>
+
+<body>
+
+    <main>
+        <div class="header">   
+            <nav class="navbar">
+                <ul class="menu">
+                    <li class="logo"><a href="Index.html">Younique</a></li>
+                    <li class="item"><a href="Download.html">Download</a></li>
+                    <li class="item"><a href="HWDA.html">Hoe werkt de app?</a></li>
+                    <li class="item"><a href="Team.html">Ons Team</a></li>
+                    <li class="item"><a href="Info.html">Info</a></li>
+                    <li class="item"><a href="Contact.html">Contact</a></li>
+                    </li>
+                    <li class="toggle"><span class="bars"></span></li>
+                </ul>
+            </nav> 
+        </div>
+    
+        <div id="hoofdm" class="richtpunt"></div>
+        <section id="Download">
+            <ol>
+                <br>
+                <p class="INTV">
+                    Download de app
+                </p>
+            </ol>
+
+            <div class="img-container">
+                <img src="Files/b.jpg">
+            </div>
+        </section>
+        </main>
+    </body>
+
+</html>
